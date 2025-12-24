@@ -1,0 +1,52 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Nigeria",
+      "cities": [
+        {
+          "name": "Lagos, Nigeria",
+          "images": ["assets/lagos.jpg", "assets/lagos2.jpg"],
+          "description": "Africa’s largest city and economic powerhouse with vibrant nightlife, beaches, and culture."
+        },
+        {
+          "name": "Abuja, Nigeria",
+          "images": ["assets/abuja.jpg", "assets/abuja2.jpg"],
+          "description": "Nigeria’s modern capital city known for structured planning and scenic landscapes."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kenya",
+      "cities": [
+        {
+          "name": "Nairobi, Kenya",
+          "images": ["assets/nairobi.jpg", "assets/nairobi2.jpg"],
+          "description": "The Green City in the Sun, blending urban life with wildlife and national parks."
+        },
+        {
+          "name": "Mombasa, Kenya",
+          "images": ["assets/mombasa.jpg", "assets/mombasa2.jpg"],
+          "description": "Historic coastal city famous for Swahili culture and white sand beaches."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Rock-Hewn Churches of Lalibela",
+      "images": ["assets/lalibela.jpg", "assets/lalibela2.jpg"],
+      "description": "UNESCO World Heritage medieval churches carved into solid rock."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Zanzibar Beaches",
+      "images": ["assets/zanzibar.jpg", "assets/zanzibar2.jpg"],
+      "description": "Crystal clear waters, white sands, and rich Swahili heritage."
+    }
+  ]
+}

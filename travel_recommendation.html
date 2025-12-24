@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AfricaCityVoyage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="travel_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-plane"></i>
+        <span>AfricaCityVoyage</span>
+      </div>
+      <nav class="nav-links">
+        <a href="travel_recommendation.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <div class="search-box">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Search: city, beach, landmark"
+        />
+        <button onclick="executeSearch()">Search</button>
+        <button class="clear-btn" onclick="resetSearch()">Clear</button>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="overlay"></div>
+
+      <!-- SOCIAL ICONS -->
+      <div class="social-icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+
+      <!-- HERO TEXT -->
+      <div class="hero-content">
+        <h1>
+          EXPLORE<br />
+          AFRICA’S<br />
+          GREAT CITIES
+        </h1>
+        <p>
+          Discover Africa’s most vibrant cities, cultural landmarks, and scenic
+          coastlines. AfricaCityVoyage curates travel inspiration for explorers
+          seeking authentic African experiences.
+        </p>
+        <button class="book-btn">DISCOVER AFRICA</button>
+      </div>
+
+      <!-- OVERLAY RESULTS (FLOATING ON HOME PAGE) -->
+      <section class="results-section overlay-results">
+        <div id="resultsContainer" class="results-grid"></div>
+      </section>
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
